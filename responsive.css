@@ -2,6 +2,29 @@
 @media(min-width:1024px){
     
 }
+/* tablet and mobile */
+@media (max-width:1023px){
+    .context-form .form-control {
+        padding:16px;
+    }
+    .Buy-Tickets-Button{
+            padding: 17px 26px;
+    }
+    .send-button{
+        width:100%;
+    }
+    .social-list a{
+        margin:0px 8px;
+        
+    }
+    #footer .social-list a {
+    font-size: 35px;
+}
+#footer .photocopy-text{
+        font-size: 25px;
+        padding: 5px 10px;
+}
+}
 /* Tablet */
 @media(min-width:740px) and(max-width:1023px){
      
@@ -44,15 +67,22 @@
     #content .mobile-context{
         width:100%;
     }
+    .s-full-width,
     .col-s{
-        width:100%;
+        width:100% !important;
     }
     .mmg16{
-        margin-top:16px;
+        margin-top:16px !important;
     }
     .mmg8{
-        margin-top:8px;
+        margin-top:8px !important; 
     }
+    #content .Buy-Tickets-Button{
+        text-align: center  ;
+    }
+    
+
+
 
 
 
