@@ -358,6 +358,8 @@ body{
     background-color:black;
     color:white;
     border:none;
+    appearance: none;
+    -webkit-appearance: none;
 }
 .send-button:hover{
     cursor: pointer;
