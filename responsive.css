@@ -1,0 +1,60 @@
+/* PC */
+@media(min-width:1024px){
+    
+}
+/* Tablet */
+@media(min-width:740px) and(max-width:1023px){
+     
+}
+/* Mobile */
+@media(max-width:740px){
+    #header .mobile-search-button{
+        display:block;
+    }
+    #header{
+        overflow:hidden;
+    }
+    #header .searchbutton{
+        display:none;
+    }
+    #nav >li{
+        display:block;
+    }
+    #nav{
+        display:block;
+    }
+
+    #nav>li:first-child{
+        display:inline-block;
+    }
+    #nav .subnav{
+        position:initial;
+        background-color:#ccc;
+    }
+    #nav .subnav li a{
+        padding: 12px 41px;
+    }
+    #content .member-item{
+        width:  100% ;
+    }
+
+    #content .tour-member-item{
+        width:100%;
+    }
+    #content .mobile-context{
+        width:100%;
+    }
+    .col-s{
+        width:100%;
+    }
+    .mmg16{
+        margin-top:16px;
+    }
+    .mmg8{
+        margin-top:8px;
+    }
+
+
+
+
+}
